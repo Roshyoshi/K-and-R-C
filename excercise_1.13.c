@@ -48,15 +48,16 @@ int main(void)
             }
         }
     }
-    printf("\n Lengths of Words\n\n");
-    for (int x = 1; x < 15; ++x)
+    printf("\n       Lengths of Words\n\n");
+    for (int x = 14; x > 0; --x)
     {
         printf(" %2d ", x);
+        printf(" %2d ", wlen[x]);
         for (int y = 0; y < wlen[x]; ++y)
         {
-            printf("#");
+            printf("|");
         }
         printf("\n");
     }
-    printf("    123456789~\n\n");
+    printf("\n");
 }
