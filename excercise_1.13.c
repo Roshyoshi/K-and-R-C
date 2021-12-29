@@ -58,4 +58,5 @@ int main(void)
         }
         printf("\n");
     }
+    printf("    123456789~\n\n");
 }
