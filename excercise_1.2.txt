@@ -1,1 +1,0 @@
-I woudl test this program by copying a large word document into it and comparing the word  count listed in another word processor with the one listed in this program. A document with many special characters such as newlines or tabs would test if there are any errors well by checking the programs capability against such characters. 
